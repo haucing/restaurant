@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer base {
+  h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}

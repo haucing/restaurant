@@ -1,0 +1,24 @@
+{
+  "name": "trproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i src/input.css -o src/output.css",
+    "watch": "npx @tailwindcss/cli -i src/input.css -o src/output.css --watch",
+    "dev:vite": "vite --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "swiper": "^14.3.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "daisyui": "^5.7.47",
+    "vite": "^8.3.3"
+  }
+}
