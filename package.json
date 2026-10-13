@@ -6,7 +6,9 @@
   "scripts": {
     "build": "npx @tailwindcss/cli -i src/input.css -o src/output.css",
     "watch": "npx @tailwindcss/cli -i src/input.css -o src/output.css --watch",
-    "dev:vite": "vite --port 3000"
+    "dev:vite": "vite --port 3000",
+    "build:vite": "vite build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
